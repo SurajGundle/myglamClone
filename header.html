@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header {
+            border: 1px solid gray;
+            background: #fff;
+            left: 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1061;
+            box-shadow: 0 3px 4px 0 rgb(0 0 0 / 15%);
+        }
+
+        .nav1 {
+            width: 100%;
+            background-color: #fee8e8;
+        }
+
+        .headerOffer {
+            display: flex;
+            width: 100%;
+            padding: 0.8rem 0;
+            max-width: 1120px;
+            background-color: var(--color2);
+            line-height: 2;
+            margin: 0 auto;
+        }
+
+        .headerOffer .leftSide {
+            padding-top: 2px;
+            width: 87%;
+            display: flex;
+        }
+
+        .headerOffer .leftSide .offerText {
+            font-size: 13.5px;
+            text-align: center;
+            
+        }
+        .refer{
+            padding-left: 20px;
+        }
+        .leftSide{
+            border: 1px solid gray;
+           gap: 10px;
+            align-items: center;
+        }
+        .rightSide{
+            border: 1px solid rebeccapurple;
+            align-items: center;
+        }
+        .nav2{
+            border: 1px solid red;
+            height: 100px;
+        }
+        .logo1>img{
+             height: 46px;
+             width: 156px;
+        }
+        .searchBox{
+            position: relative;
+            border: 1px solid gray;
+            padding: 10px 100px 10px 20px;
+            
+        }
+        .navLeft{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="nav1">
+            <div class="headerOffer">
+                <div class="leftSide">
+
+                    <img src="https://www.myglamm.com/images/gift.svg" alt="" style="width:16px;height:16px"
+                        class="mr-4">
+                    <a class="offerText" href="">FLAT 199 Store
+                        <span class="refer">SHOP NOW</span>
+                    </a>
+                </div>
+                <a class="rightSide" href="">
+                    <img src="https://www.myglamm.com/images/shop.svg"alt="" style="width:16px;height:16px;padding-right: 10px;" class="mr-4">
+                    MyGlamm Store
+                </a>
+            </div>
+
+        </div>
+        <div class="nav2">
+            <div class="navLeft">
+                <div class="logo">
+                    <a href=""></a>
+                    <div class="logo1">
+                        <img src="https://files.myglamm.com/site-images/original/MyGlamm-Logo_1.jpg" alt="">
+                    </div>
+                </div>
+                <form class="searchBox" >
+                    <span class="search-ico">
+                        <img src="https://www.myglamm.com/images/search.svg" alt="search">
+                    </span>
+                    <input type="text" placeholder="Find Lipstick, Eyeliner, Makeup Tutorial, etc" class="form-control ui-autocomplete-input" style="border:0px; outline:none" autocomplete="off" value="">
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
